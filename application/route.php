@@ -23,3 +23,7 @@ return [
 //            'api'   => 'api',
 //        ],
 ];
+
+// Route::group('index', function(){
+// 	Route::rule('/','index/index/test');
+// })
