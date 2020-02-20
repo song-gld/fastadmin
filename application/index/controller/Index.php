@@ -22,7 +22,7 @@ class Index extends Frontend
         //$result = cate::count();
         $this->assign('cate',$cate);
         //dump($cate); die;
-        return $this->view->fetch();
+        return $this->fetch();
     }
 
 }
